@@ -28,10 +28,8 @@ export const TestomonialCard = styled.div`
 color:grey;
  height:300px;
  width:400px;
- border:2px solid silver;
- transition: all 1.5;
+ border-radius:5px;
  &:hover{
-  border-radius:5px;
   cursor:pointer;
  }
  @media screen and (max-width:900px) {

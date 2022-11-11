@@ -13,16 +13,24 @@ align-items:center;
 `;
 
 export const Prev =styled.div`
-position:absolute;
-bottom:5%;
-left:40%;
-height:100px;
-width:300px;
-background: silver;
-display:none;
+display:flex;
 align-items: center;
-text-align: center;
+justify-content: center;
+display:none
 `;
+
+export const ProjectCard = styled.div`
+transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1.5s;
+    opacity: 0.8;
+  
+ &:hover{
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  
+`
+
+
 // export const DivImgPr =styled.div`
 // height:200px;
 // transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1.5s;

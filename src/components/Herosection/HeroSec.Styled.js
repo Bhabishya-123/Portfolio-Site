@@ -141,7 +141,6 @@ export const HeroIcon = styled.div`
 export const Drawertext = styled.h4` 
 font-size:20px;
 cursor: pointer;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 margin-top: 20px;
 opacity:0.8;
 &:hover{

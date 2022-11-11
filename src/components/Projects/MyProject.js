@@ -1,20 +1,20 @@
 import React from "react";
-import { ProjectWrapper,Prev} from "./MyProjects.Styled";
+import { ProjectWrapper,ProjectCard} from "./MyProjects.Styled";
 import SwiperCore, { Autoplay, EffectCoverflow, Pagination,Keyboard} from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
 import './Swiper.css'
 import 'swiper/css/pagination'
-import VisibilityIcon from '@mui/icons-material/Visibility';
+import pr1 from "../../image/proj1.png";
+import pr2 from "../../image/proj2.png";
+import pr3 from "../../image/proj3.png";
+import pr4 from "../../image/proj4.png";
+import pr5 from "../../image/proj5.png";
+// import VisibilityIcon from '@mui/icons-material/Visibility';
 SwiperCore.use([EffectCoverflow, Autoplay, Pagination,Keyboard]);
 
 // if you want to use array
-const slide_img = [
-  "https://swiperjs.com/demos/images/nature-1.jpg",
-  "https://swiperjs.com/demos/images/nature-2.jpg",
-  "https://swiperjs.com/demos/images/nature-3.jpg",
-  "https://swiperjs.com/demos/images/nature-4.jpg"
-];
+const slide_img = [[pr1,"https://redux-shop-apps.netlify.app/"],[pr2,"https://weathers-finder.herokuapp.com/"],[pr3,"http://electric-shop.42web.io/"],[pr4,"https://futuretechnical.netlify.app/"],[pr5,"https://100infotech.netlify.app/"]];
 
 
 
@@ -38,13 +38,17 @@ const MyProject = () => {
         keyboard={true}
       >
         {/* using array */}
-        {slide_img.map((img, i) => {
+        {slide_img.map((imgLink, i) => {
           return (
             <SwiperSlide  key={i} style={{position:'relative',marginLeft:'10px',marginRight:'10px'}}>
-              <img data-aos-duration='8000' data-aos="fade-up" src={img} alt="" />
-              <Prev>
-                      <div style={{display:'flex',alignItems:'center'}}> <VisibilityIcon/> preview</div>
-              </Prev>
+              <ProjectCard>
+              <a href={imgLink[1]}>
+              <img data-aos-duration='8000' data-aos="fade-up" src={imgLink[0]} alt="" />
+              </a>
+              {/* <Prev>
+                      <div style={{display:'flex',alignItems:'center'}}> <VisibilityIcon/> LiveDemo</div>
+              </Prev> */}
+              </ProjectCard>
             </SwiperSlide>
           );
         })}
