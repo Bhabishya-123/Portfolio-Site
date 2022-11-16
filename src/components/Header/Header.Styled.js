@@ -2,7 +2,6 @@ import { WrapperContainer,DivRight } from "../ParentStyle/ParentStyled";
 import styled from "styled-components";
 
 export const HeaderWrapper = styled(WrapperContainer)`
-  overflow: hidden;
 margin-bottom: 5px;
 transition: 0.2s;
 `;

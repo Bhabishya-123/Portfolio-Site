@@ -40,13 +40,13 @@ const [showDrawer,setShowDrawer] = useState(false);
     <>
       <ThemeProvider theme={theme}>
         <GlobalStyled toggled={toggled} />
+        <Scrollbtn/>
         <Header  toggled={toggled} setToggledF={toggleFun} showDrawer={showDrawer} setShowDrawer={setShowDrawer}/>
         <HeroSection toggled={toggled} setToggledF={toggleFun}  showDrawer={showDrawer}/>
         <MyService />
         <DetailCircle/>
         <MySkill display={display} setDisplayF={displayFun} />
         <MyProject />
-        <Scrollbtn/>
         <MyTestomonial />
         <Contact toggled={toggled}/>
       </ThemeProvider>
