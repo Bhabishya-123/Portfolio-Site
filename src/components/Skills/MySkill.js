@@ -79,7 +79,7 @@ function MySkill({ display, setDisplayF }) {
                 }}
               >
                <BrandCircle data-aos-duration='10000' data-aos="fade-up-right"> <img src={amazon} alt="amazon pic" style={{height:'40px',objectFit:'cover',background:"white"}}/> </BrandCircle>
-               <BrandCircle data-aos-duration='10000' data-aos="fade-up-right" style={{position:"absolute",left:"110px",top:"110px"}}><img src={google} alt="goole pic" style={{height:'50px',objectFit:'cover',background:"white"}}/></BrandCircle>
+               <BrandCircle style={{position:"absolute",left:"110px",top:"110px"}}><img src={google} alt="goole pic" style={{height:'50px',objectFit:'cover',background:"white"}}/></BrandCircle>
                <BrandCircle data-aos-duration='10000' data-aos="fade-up-left" style={{position:"absolute",left:"50px",bottom:"-20px"}}><img src={asus} alt="twitter pic" style={{height:'21px',objectFit:'cover',background:"white"}}/></BrandCircle>
                <BrandCircle data-aos-duration='10000' data-aos="fade-up-left" style={{position:"absolute",right:"-30px",top:"60px"}}><img src={intel} alt="intel pic" style={{height:'38px',objectFit:'cover',background:"white"}}/></BrandCircle>
               </div>
