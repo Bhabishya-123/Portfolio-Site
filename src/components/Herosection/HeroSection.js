@@ -48,7 +48,7 @@ function HeroSection({toggled,setToggledF,showDrawer}) {
    
  <LeftLink>
         <HeroIcon>
-        <a target="_blank" rel="noreferrer" href="https://www.facebook.com/bhabishya.ghimireabd.7">   <FacebookIcon style={{ fontSize: "60px", backgroundColor: "blue" }}  /> </a>
+        <a target="_blank" rel="noreferrer" href="https://www.facebook.com/bhabishya.ghimireabd.7">   <FacebookIcon style={{ fontSize: "60px", backgroundColor: "#3b5998" }}  /> </a>
         </HeroIcon>
         <HeroIcon>
           <InstagramIcon
@@ -56,13 +56,13 @@ function HeroSection({toggled,setToggledF,showDrawer}) {
           />
         </HeroIcon>
         <HeroIcon>
-          <TwitterIcon style={{ fontSize: "60px", backgroundColor: "skyblue" }} />
+          <TwitterIcon style={{ fontSize: "60px", backgroundColor: " #00acee" }} />
         </HeroIcon>
         <HeroIcon>
-        <a target="_blank" rel="noreferrer" href="https://github.com/Bhabishya-123"><GitHubIcon style={{ fontSize: "60px", backgroundColor: "grey" }}  /> </a>
+        <a target="_blank" rel="noreferrer" href="https://github.com/Bhabishya-123"><GitHubIcon style={{ fontSize: "60px" }}  /> </a>
         </HeroIcon>
         <HeroIcon>
-        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/bhabishya-ghimire-655286221/"> <LinkedInIcon style={{ fontSize: "60px", backgroundColor: "darkblue" }} /> </a>
+        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/bhabishya-ghimire-655286221/"> <LinkedInIcon style={{ fontSize: "60px", backgroundColor: "#0e76a8" }} /> </a>
         </HeroIcon>
       </LeftLink>
      

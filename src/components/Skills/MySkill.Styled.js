@@ -4,6 +4,8 @@ import { HeroButton } from "../Herosection/HeroSec.Styled";
 
 export const SKillWrapper = styled.div`
   height: 85vh;
+
+  
   margin-top: 80px;
   @media only screen and (max-width: 900px)  {
     height:140vh;
@@ -37,6 +39,18 @@ export const SkillCircle = styled.div`
   border-right: 2px solid orange;
   border-top: 2px solid orange;
   border-bottom: 2px solid skyblue;
+`;
+export const BrandCircle = styled.div`
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  background-color: white;
+  box-shadow: grey 0px 7px 29px 0px;
+  border:2px solid silver;
 `;
 export const SkillsDetailsCont = styled.div`
   height: 70vh;
