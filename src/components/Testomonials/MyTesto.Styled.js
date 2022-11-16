@@ -15,7 +15,9 @@ export const TestomonialCardContainer = styled.div`
   cursor:pointer;
  }
   @media only screen and (max-width: 900px)  {
-  flex-direction: column;
+  flex-direction: column-reverse;
+  justify-content: center;
+  gap:20px;
   }
 `;
 
@@ -38,10 +40,10 @@ box-shadow: 5px 5px 5px 0px orange;
 -webkit-box-shadow: 5px 5px 5px 0px orange;
 -moz-box-shadow: 5px 5px 5px 0px orange;
  width:300px;
- /* @media screen and (max-width:900px) {
+ @media screen and (max-width:900px) {
   box-shadow: 3px 3px 3px 0px orange;
 -webkit-box-shadow: 3px 3px 3px 0px orange;
 -moz-box-shadow: 3px 3px 3px 0px orange;
 background:linear-gradient(orange,yellow)
-} */
+}
 `;
