@@ -41,9 +41,7 @@ box-shadow: 5px 5px 5px 0px orange;
 -moz-box-shadow: 5px 5px 5px 0px orange;
  width:300px;
  @media screen and (max-width:900px) {
-  box-shadow: 3px 3px 3px 0px orange;
--webkit-box-shadow: 3px 3px 3px 0px orange;
--moz-box-shadow: 3px 3px 3px 0px orange;
-background:linear-gradient(orange,yellow)
+box-shadow: none;
+text-shadow:  1px 1px 0px ;
 }
 `;
