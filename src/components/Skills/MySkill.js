@@ -78,10 +78,10 @@ function MySkill({ display, setDisplayF }) {
                   position:"relative"
                 }}
               >
-               <BrandCircle data-aos-duration='10000' data-aos="fade-up-right"> <img src={amazon} alt="amazon pic" style={{height:'40px',objectFit:'cover',background:"white"}}/> </BrandCircle>
+               <BrandCircle data-aos-duration='5000' data-aos="fade-up-right"> <img src={amazon} alt="amazon pic" style={{height:'40px',objectFit:'cover',background:"white"}}/> </BrandCircle>
                <BrandCircle style={{position:"absolute",left:"110px",top:"110px"}}><img src={google} alt="goole pic" style={{height:'50px',objectFit:'cover',background:"white"}}/></BrandCircle>
-               <BrandCircle data-aos-duration='10000' data-aos="fade-up-left" style={{position:"absolute",left:"50px",bottom:"-20px"}}><img src={asus} alt="twitter pic" style={{height:'21px',objectFit:'cover',background:"white"}}/></BrandCircle>
-               <BrandCircle data-aos-duration='10000' data-aos="fade-up-left" style={{position:"absolute",right:"-30px",top:"60px"}}><img src={intel} alt="intel pic" style={{height:'38px',objectFit:'cover',background:"white"}}/></BrandCircle>
+               <BrandCircle data-aos-duration='5000' data-aos="fade-up-left" style={{position:"absolute",left:"50px",bottom:"-20px"}}><img src={asus} alt="twitter pic" style={{height:'21px',objectFit:'cover',background:"white"}}/></BrandCircle>
+               <BrandCircle data-aos-duration='5000' data-aos="fade-up-left" style={{position:"absolute",right:"-30px",top:"60px"}}><img src={intel} alt="intel pic" style={{height:'38px',objectFit:'cover',background:"white"}}/></BrandCircle>
               </div>
 
               <DivDesignCircle  style={{ position: "absolute", left: "-55%", top: "-12%" }}>
@@ -92,34 +92,25 @@ function MySkill({ display, setDisplayF }) {
 
           <MyEduCont displayValue={display}>
           <DivEdu>
-            <div style={{display:'flex',flexDirection:'column',gap:'50px'}}>
              <div>
               <h2> <BsFillAwardFill/> SLC</h2>
               <pre> <TbCornerUpRightDouble/>studied from Gyanodaya <br/>    sec eng school</pre> <br/>
               <pre> <TbCornerUpRightDouble/>passed SEE on year <br/>    2074 B.S</pre> <br/>
               <pre> <TbCornerUpRightDouble/>secured A <sup>+</sup>Grade</pre>
               </div>
+
               <div>
               <h2><BsFillAwardFill/> 11/12</h2>
               <pre> <TbCornerUpRightDouble/>studied from Gyanodaya <br/>    sec eng school</pre> <br/>
               <pre> <TbCornerUpRightDouble/>passed SEE on year <br/>    2074 B.S</pre> <br/>
               <pre> <TbCornerUpRightDouble/>secured A <sup>+</sup>Grade</pre>
               </div>
-              </div>
 
-              <div style={{display:'flex',flexDirection:'column',gap:'50px'}}>
-             <div>
+              <div>
               <h2><BsFillAwardFill/> Bachelor</h2>
               <pre> <TbCornerUpRightDouble/>studied from Gyanodaya <br/>    sec eng school</pre> <br/>
               <pre> <TbCornerUpRightDouble/>passed SEE on year <br/>    2074 B.S</pre> <br/>
               <pre> <TbCornerUpRightDouble/>secured A <sup>+</sup>Grade</pre>
-              </div>
-              <div>
-              <h2><BsFillAwardFill/> Master</h2>
-              <pre> <TbCornerUpRightDouble/>studied from Gyanodaya <br/>    sec eng school</pre> <br/>
-              <pre> <TbCornerUpRightDouble/>passed SEE on year <br/>    2074 B.S</pre> <br/>
-              <pre> <TbCornerUpRightDouble/>secured A <sup>+</sup>Grade</pre>
-              </div>
               </div>
           </DivEdu>
           </MyEduCont>

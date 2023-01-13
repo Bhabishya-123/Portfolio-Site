@@ -12,7 +12,7 @@ import {
   DivHeroText,
   HeroWrapper,
   DivRightHero,
-  HeroButton
+  HeroButton,InnerTopWrapper,
 } from "./HeroSec.Styled";
 import { givePageName } from '../ScrollFunction';
 import {motion} from "framer-motion"
@@ -46,13 +46,16 @@ function HeroSection({toggled,setToggledF,showDrawer}) {
           <></>
         )}
    
+  
+  <InnerTopWrapper toggledValue={toggled}/>
+  
  <LeftLink>
         <HeroIcon>
         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/bhabishya.ghimireabd.7">   <FacebookIcon style={{ fontSize: "60px", backgroundColor: "#3b5998" }}  /> </a>
         </HeroIcon>
         <HeroIcon>
           <InstagramIcon
-            style={{ fontSize: "60px", backgroundColor: "orange" }}
+            style={{ fontSize: "60px", backgroundColor: "#125688" }}
           />
         </HeroIcon>
         <HeroIcon>
@@ -85,7 +88,7 @@ function HeroSection({toggled,setToggledF,showDrawer}) {
               "Content Writer",
               "Poem Maker",
             ].map((item,index) => (
-              <ParText key={index}color="red"> {item} </ParText>
+              <ParText key={index}color="orangered"> {item} </ParText>
             ))}
           </TitleDivHidden>
         </TitleDivVisible>
@@ -101,7 +104,6 @@ function HeroSection({toggled,setToggledF,showDrawer}) {
     <img src={landingBg} alt="landingimage" style={{height:'100%',zIndex:'1'}}/>
       </DivRightHero>
 
-  
     </HeroWrapper>
     </motion.div>
   );

@@ -145,9 +145,10 @@ export const DivEdu = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:20%;
+  gap:10%;
   margin-top:50px;
   @media only screen and (max-width: 900px)  {
     flex-direction: column;
+    gap:50px;
   }
 `

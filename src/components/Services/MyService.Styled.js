@@ -60,6 +60,9 @@ margin:0;
   }
 `
 export const ServiceCard = styled(Card)`
+  display:flex;
+  align-items: center;
+  justify-content: center;
 position: absolute;
  color:grey;
  height:250px;

@@ -26,9 +26,9 @@ function MyServices() {
         </ServiceText>
 
         <ServiceCardContainer>
-          <ServiceCard data-aos-duration='5000' data-aos="fade-left"  style={{top:'25%',left:'4%'}}/>
-          <ServiceCard data-aos-duration='5000' data-aos="fade-right" style={{top:'2%',left:'60%'}}/>
-          <ServiceCard data-aos-duration='5000' data-aos="fade-left" style={{top:'55%',left:'54%'}}/>
+          <ServiceCard data-aos-duration='5000' data-aos="fade-left"  style={{top:'25%',left:'4%'}}>coming soon</ServiceCard>
+          <ServiceCard data-aos-duration='5000' data-aos="fade-right" style={{top:'2%',left:'60%'}}>coming soon</ServiceCard>
+          <ServiceCard data-aos-duration='5000' data-aos="fade-left" style={{top:'55%',left:'54%'}}>coming soon</ServiceCard>
         </ServiceCardContainer>
       </ServiceWrapper>
     </>
