@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const SkillCircleContainer = styled.div`
-  height: 25vh;
+  height: 20vh;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5%;
-  margin-top:50px;
-  margin-bottom: 220px;
+  margin-top:140px;
+  margin-bottom: 120px;
 `;
 export const CircleTextCont = styled.div`
   height: 100%;

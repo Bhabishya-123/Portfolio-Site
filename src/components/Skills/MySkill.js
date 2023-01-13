@@ -95,22 +95,22 @@ function MySkill({ display, setDisplayF }) {
              <div>
               <h2> <BsFillAwardFill/> SLC</h2>
               <pre> <TbCornerUpRightDouble/>studied from Gyanodaya <br/>    sec eng school</pre> <br/>
-              <pre> <TbCornerUpRightDouble/>passed SEE on year <br/>    2074 B.S</pre> <br/>
-              <pre> <TbCornerUpRightDouble/>secured A <sup>+</sup>Grade</pre>
+              <pre> <TbCornerUpRightDouble/>passed SEE on year <br/>    2073 B.S</pre> <br/>
+              <pre> <TbCornerUpRightDouble/>secured A Grade</pre>
               </div>
 
               <div>
-              <h2><BsFillAwardFill/> 11/12</h2>
-              <pre> <TbCornerUpRightDouble/>studied from Gyanodaya <br/>    sec eng school</pre> <br/>
-              <pre> <TbCornerUpRightDouble/>passed SEE on year <br/>    2074 B.S</pre> <br/>
-              <pre> <TbCornerUpRightDouble/>secured A <sup>+</sup>Grade</pre>
+              <h2><BsFillAwardFill/>11/12</h2>
+              <pre> <TbCornerUpRightDouble/>studied from Goldengate  <br/>    International College</pre> <br/>
+              <pre> <TbCornerUpRightDouble/>passed <sup>+</sup>2 from 2017 to <br/>    2019 A.D</pre> <br/>
+              <pre> <TbCornerUpRightDouble/>secured A Grade</pre>
               </div>
 
               <div>
               <h2><BsFillAwardFill/> Bachelor</h2>
-              <pre> <TbCornerUpRightDouble/>studied from Gyanodaya <br/>    sec eng school</pre> <br/>
-              <pre> <TbCornerUpRightDouble/>passed SEE on year <br/>    2074 B.S</pre> <br/>
-              <pre> <TbCornerUpRightDouble/>secured A <sup>+</sup>Grade</pre>
+              <pre> <TbCornerUpRightDouble/>studying at <br/>    New Summit College</pre> <br/>
+              <pre> <TbCornerUpRightDouble/>currently studying<br/>    started from 2077 B.S</pre> <br/>
+              <pre> <TbCornerUpRightDouble/>Batch 2077 B.S</pre>
               </div>
           </DivEdu>
           </MyEduCont>
