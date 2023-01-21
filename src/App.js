@@ -10,6 +10,7 @@ import MyTestomonial from "./components/Testomonials/MyTestomonial";
 import Contact from './components/Contact/Contact'
 import DetailCircle from "./components/DetailCircle/DetailCircle";
 import Scrollbtn from "./components/Scrollbtn";
+import Chatgpt from "./components/Chatgpt/Chatgpt";
 
 const theme = {
   dark: {
@@ -49,6 +50,7 @@ const [showDrawer,setShowDrawer] = useState(false);
         <MyProject />
         <MyTestomonial />
         <Contact toggled={toggled}/>
+        <Chatgpt/>
       </ThemeProvider>
     </>
   );

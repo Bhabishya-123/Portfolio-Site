@@ -12,7 +12,7 @@ import {
   DivHeroText,
   HeroWrapper,
   DivRightHero,
-  HeroButton,InnerTopWrapper,
+  HeroButton,
 } from "./HeroSec.Styled";
 import { givePageName } from '../ScrollFunction';
 import {motion} from "framer-motion"
@@ -47,7 +47,7 @@ function HeroSection({toggled,setToggledF,showDrawer}) {
         )}
    
   
-  <InnerTopWrapper toggledValue={toggled}/>
+  {/* <InnerTopWrapper toggledValue={toggled}/> */}
  <LeftLink>
         <HeroIcon>
         <a target="_blank" rel="noreferrer" href="https://www.facebook.com/bhabishya.ghimireabd.7">   <FacebookIcon style={{ fontSize: "60px", backgroundColor: "#3b5998" }}  /> </a>

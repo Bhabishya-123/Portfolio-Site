@@ -9,6 +9,7 @@ export const ServiceWrapper = styled.div`
   display:flex;
   justify-content: center;
   gap:4rem;
+  overflow:hidden;
   @media only screen and (max-width: 1200px)  {
     flex-direction: column;
     align-items: center;

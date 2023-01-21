@@ -4,26 +4,28 @@ import { DivRight } from "../ParentStyle/ParentStyled";
 
 export const HeroWrapper = styled.div`
   height: 80vh;
+  width:100%;
   display: flex;
   align-items: center;
   position:relative;
   gap: 4rem;
   margin-bottom: 200px;
+  overflow:hidden;
 `;
 
-export const InnerTopWrapper = styled.div`
-display: none;
-   @media only screen and (max-width: 500px)  {
-    display: ${(props)=>props.toggledValue===true?'none': 'flex'};
-    background-color: gainsboro;
-    border-radius: 0% 100% 100% 0% / 65% 0% 100% 35%;
-height: 60%;
-width:100%;
-position:absolute;
-top:0px;
-  }
+// export const InnerTopWrapper = styled.div`
+// display: none;
+//    @media only screen and (max-width: 500px)  {
+//     display: ${(props)=>props.toggledValue===true?'none': 'flex'};
+//     background-color: gainsboro;
+//     border-radius: 0% 100% 100% 0% / 65% 0% 100% 35%;
+// height: 60%;
+// width:100%;
+// position:absolute;
+// top:0px;
+//   }
 
-`
+// `
 
 export const Nameh1 = styled.h1`
  font-size: 50px;
