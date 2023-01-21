@@ -2,8 +2,6 @@
 import styled from "styled-components";
 
 export const ChatgptWrapper = styled.div`
-  height: 50%;
-  width:30%;
   position:fixed;
   border-radius:10px 20px 10px 20px;
   top:28%;
