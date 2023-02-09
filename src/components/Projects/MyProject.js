@@ -16,7 +16,7 @@ import pr7 from "../../image/proj7.png";
 SwiperCore.use([EffectCoverflow, Autoplay, Pagination,Keyboard]);
 
 // if you want to use array
-const slide_img = [[pr4,"https://futuretechnical.netlify.app/"],[pr2,"https://weathers-finder.herokuapp.com/"],[pr3,"http://electric-shop.42web.io/"],[pr6,"https://fbchatmessenger.netlify.app/"],[pr1,"https://redux-shop-apps.netlify.app/"],[pr7,"https://nitrotypinggame.netlify.app/"],[pr5,"https://100infotech.netlify.app/"]];
+const slide_img = [[pr4,"https://futuretechnical.netlify.app/"],[pr2,"https://weathers-finder.herokuapp.com/"],[pr3,"http://electric-shop.42web.io/"],[pr6,"https://fbchatmessenger.netlify.app/"],[pr1,"https://redux-shop-apps.netlify.app/"],[pr5,"https://100infotech.netlify.app/"],[pr7,"https://nitrotypinggame.netlify.app/"]];
 
 
 
