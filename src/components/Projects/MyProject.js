@@ -11,11 +11,12 @@ import pr3 from "../../image/proj3.png";
 import pr4 from "../../image/proj4.png";
 import pr5 from "../../image/proj5.png";
 import pr6 from "../../image/proj6.png";
+import pr7 from "../../image/proj7.png";
 // import VisibilityIcon from '@mui/icons-material/Visibility';
 SwiperCore.use([EffectCoverflow, Autoplay, Pagination,Keyboard]);
 
 // if you want to use array
-const slide_img = [[pr4,"https://futuretechnical.netlify.app/"],[pr2,"https://weathers-finder.herokuapp.com/"],[pr3,"http://electric-shop.42web.io/"],[pr6,"https://fbchatmessenger.netlify.app/"],[pr1,"https://redux-shop-apps.netlify.app/"],[pr5,"https://100infotech.netlify.app/"]];
+const slide_img = [[pr4,"https://futuretechnical.netlify.app/"],[pr2,"https://weathers-finder.herokuapp.com/"],[pr3,"http://electric-shop.42web.io/"],[pr6,"https://fbchatmessenger.netlify.app/"],[pr1,"https://redux-shop-apps.netlify.app/"],[pr7,"https://nitrotypinggame.netlify.app/"],[pr5,"https://100infotech.netlify.app/"]];
 
 
 

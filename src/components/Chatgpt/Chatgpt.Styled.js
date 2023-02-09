@@ -23,7 +23,7 @@ export const InitialChatgpt = styled.div`
 position: fixed;
 top:45%;
 right:0;
-width: 30px;
+width: 20px;
   height:100px;
   background:orange;
   border-radius:20px 0px 10px 0px;
@@ -31,7 +31,9 @@ width: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity:0.5;
   &:hover{
     cursor:pointer;
+    opacity:1
   }
 `;
