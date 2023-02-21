@@ -62,17 +62,20 @@ margin:0;
 `
 export const ServiceCard = styled(Card)`
   display:flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding:10px;
+  gap:5px;
+  background:${(props)=>props.tv===true?'black': ' '};
 position: absolute;
  color:grey;
  height:250px;
  width:250px;
  border:2px solid silver;
- box-shadow: -14px -20px 0px 0px silver;
+ box-shadow: -4px -4px 0px 0px rgb(255,147,0);
  &:hover{
-  border:4px solid silver;
-  box-shadow: -20px -22px 5px 0px grey;
+  box-shadow: -5px -5px 1px 0px rgb(255,140,0);
   cursor:pointer;
  }
  @media only screen and (max-width: 600px)  {
@@ -81,4 +84,22 @@ margin:0;
 position:static;
 
   }
+`
+
+export const BtnP = styled.p`
+position:absolute;
+top: 85%;
+background:none;
+color:skyblue;
+font-size:14px;
+border-right:1px solid violet;
+border-top:1px solid violet;
+padding:4px;
+&:hover{
+  border:1px solid violet;
+  cursor:pointer;
+ }
+ &:active{
+  padding:5px;
+ }
 `

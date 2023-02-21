@@ -36,9 +36,9 @@ text-align: center;
 display: flex;
 align-items: center;
 height: 150px;
-box-shadow: 5px 5px 5px 0px orange;
--webkit-box-shadow: 5px 5px 5px 0px orange;
--moz-box-shadow: 5px 5px 5px 0px orange;
+box-shadow: 3px 3px 3px 0px orange;
+-webkit-box-shadow: 3px 3px 3px 0px orange;
+-moz-box-shadow: 3px 3px 3px 0px orange;
  width:300px;
 
 `;

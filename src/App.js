@@ -10,7 +10,7 @@ import MyTestomonial from "./components/Testomonials/MyTestomonial";
 import Contact from './components/Contact/Contact'
 import DetailCircle from "./components/DetailCircle/DetailCircle";
 import Scrollbtn from "./components/Scrollbtn";
-import Chatgpt from "./components/Chatgpt/Chatgpt";
+// import Chatgpt from "./components/Chatgpt/Chatgpt";
 
 const theme = {
   dark: {
@@ -44,13 +44,13 @@ const [showDrawer,setShowDrawer] = useState(false);
         <Scrollbtn/>
         <Header  toggled={toggled} setToggledF={toggleFun} showDrawer={showDrawer} setShowDrawer={setShowDrawer}/>
         <HeroSection toggled={toggled} setToggledF={toggleFun}  showDrawer={showDrawer}/>
-        <MyService />
+        <MyService toggled={toggled}/>
         <DetailCircle/>
         <MySkill display={display} setDisplayF={displayFun} />
         <MyProject />
         <MyTestomonial />
         <Contact toggled={toggled}/>
-        <Chatgpt/>
+        {/* <Chatgpt/> */}
       </ThemeProvider>
     </>
   );
