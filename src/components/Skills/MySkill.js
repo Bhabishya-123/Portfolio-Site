@@ -108,7 +108,7 @@ function MySkill({ display, setDisplayF }) {
 
               <div>
               <h2><BsFillAwardFill/> Bachelor</h2>
-              <pre> <TbCornerUpRightDouble/>New Summit College</pre> <br/>
+              <pre> <TbCornerUpRightDouble/>New Summit College, Baneshwor</pre> <br/>
               {/* <pre> <TbCornerUpRightDouble/>currently studying<br/>    started from 2077 B.S</pre> <br/>
               <pre> <TbCornerUpRightDouble/>Batch 2077 B.S</pre> */}
               </div>
