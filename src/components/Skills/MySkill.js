@@ -109,8 +109,8 @@ function MySkill({ display, setDisplayF }) {
               <div>
               <h2><BsFillAwardFill/> Bachelor</h2>
               <pre> <TbCornerUpRightDouble/>studying at <br/>    New Summit College</pre> <br/>
-              <pre> <TbCornerUpRightDouble/>currently studying<br/>    started from 2077 B.S</pre> <br/>
-              <pre> <TbCornerUpRightDouble/>Batch 2077 B.S</pre>
+              {/* <pre> <TbCornerUpRightDouble/>currently studying<br/>    started from 2077 B.S</pre> <br/>
+              <pre> <TbCornerUpRightDouble/>Batch 2077 B.S</pre> */}
               </div>
           </DivEdu>
           </MyEduCont>
