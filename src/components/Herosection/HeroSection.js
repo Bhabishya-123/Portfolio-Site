@@ -92,9 +92,9 @@ function HeroSection({toggled,setToggledF,showDrawer}) {
           </TitleDivHidden>
         </TitleDivVisible>
         <HeroP style={{ margin: "4% 0%" }}>
-          Frontend Developer with high level of experience in web designing and
-          development, producing the quality work and have gained all the
-          experience along with best award on website development.
+          Full-Stack Developer with a year's experience in web 
+          development, delivering high-quality work and have gained proficiency
+         in implementing real-world projects.
         </HeroP>
         <HeroButton value="Hireme" onClick={givePageName}>Hire me</HeroButton>
         </div>
