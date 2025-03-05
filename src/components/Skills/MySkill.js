@@ -11,8 +11,8 @@ import {
   BrandCircle,
 } from "./MySkill.Styled";
 import skillC from "../../image/skillC.png";
-import amazon from "../../image/amazon.png";
-import google from "../../image/google.png";
+import freelance from "../../image/freelance.png";
+import youtube from "../../image/youtube.png";
 import supreme from "../../image/supreme.png";
 import devfinity from "../../image/devfinity.png";
 import { SkillHirebtn } from "./MySkill.Styled";
@@ -87,8 +87,8 @@ function MySkill({ display, setDisplayF }) {
                 <BrandCircle data-aos-duration="5000" data-aos="fade-up-right">
                   {" "}
                   <img
-                    src={amazon}
-                    alt="amazon pic"
+                    src={freelance}
+                    alt="freelance pic"
                     style={{
                       height: "40px",
                       objectFit: "cover",
@@ -100,7 +100,7 @@ function MySkill({ display, setDisplayF }) {
                   style={{ position: "absolute", left: "110px", top: "110px" }}
                 >
                   <img
-                    src={google}
+                    src={youtube}
                     alt="goole pic"
                     style={{
                       height: "50px",
@@ -227,9 +227,9 @@ function MySkill({ display, setDisplayF }) {
                 <pre>
                   {" "}
                   <TbCornerUpRightDouble />
-                  Gained technical and practical 
-                  <br/>
-                    knowledge
+                  Gained technical and practical
+                  <br />
+                  knowledge
                 </pre>{" "}
                 <br />
                 {/* <pre> <TbCornerUpRightDouble/>currently studying<br/>    started from 2077 B.S</pre> <br/>
